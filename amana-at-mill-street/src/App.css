@@ -123,3 +123,10 @@ color: rgb(37, 159, 230);
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
+
+@media (max-width: 900px) {
+  .carousel {
+    width:auto;
+    height:auto;
+  }
+}
