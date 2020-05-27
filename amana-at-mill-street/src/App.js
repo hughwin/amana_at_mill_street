@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import BootstrapCarousel from "./components/BootstrapCarousel";
+import Calendar from "./components/Calendar"
 
 function App() {
   return (
-    <div>
-      <div class="top container text-center">
+    <div class="text-center">
+      <div class="top container">
         <h1 class="title" id="name">
           Amana at Mill Street
         </h1>
@@ -23,6 +24,7 @@ function App() {
       <BootstrapCarousel></BootstrapCarousel>
       <div>
         <h1>Availability</h1>
+        <Calendar></Calendar>
       </div>
     </div>
   );
