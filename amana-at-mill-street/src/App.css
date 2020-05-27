@@ -124,9 +124,40 @@ color: rgb(37, 159, 230);
   overflow-x: hidden !important;
 }
 
-@media (max-width: 900px) {
-  .carousel {
-    width:auto;
-    height:auto;
-  }
+.carousel {
+  width:600px;
+  height:400px;
+}
+
+.carousel .item img {
+  max-height: 400px;
+  min-width: 600px;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.align-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
