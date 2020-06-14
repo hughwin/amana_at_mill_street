@@ -1,10 +1,16 @@
 import React from "react";
 import "./App.css";
 import BootstrapCarousel from "./components/BootstrapCarousel";
-import Calendar from "./components/Calendar"
 
 function App() {
   return (
+    <div>
+    <head>
+          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato" rel="stylesheet"/>
+          <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'/>
+          <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
+    </head>
+    <Navigation></Navigation>
     <div class="text-center">
       <div class="top container">
         <h1 class="title" id="name">
@@ -23,9 +29,9 @@ function App() {
       </div>
       <BootstrapCarousel></BootstrapCarousel>
       <div>
-        <h1>Availability</h1>
-        <Calendar></Calendar>
+        <h1>Contact</h1>
       </div>
+    </div>
     </div>
   );
 }
