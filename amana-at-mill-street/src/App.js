@@ -4,19 +4,15 @@ import BootstrapCarousel from "./components/BootstrapCarousel";
 
 function App() {
   return (
-    <div>
-    <head>
-          <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato" rel="stylesheet"/>
-          <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'/>
-          <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
-    </head>
-    <Navigation></Navigation>
-    <div class="text-center">
-      <div class="top container">
-        <h1 class="title" id="name">
-          Amana at Mill Street
-        </h1>
-      </div>
+    <div class ="text-center">
+      <head>
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato" rel="stylesheet"/>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'/>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'/>
+        </head>
+    <div class="top container">
+    <h1 class="title" id="name">Amana at Mill Street</h1>
+</div>
       <div>
         <h1>Ludlow</h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -31,8 +27,8 @@ function App() {
       <div>
         <h1>Contact</h1>
       </div>
-    </div>
-    </div>
+      </div>
+
   );
 }
 
