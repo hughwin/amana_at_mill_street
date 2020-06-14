@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lato');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 
 .navbar-nav {
   margin: 1;
@@ -84,6 +87,8 @@ overflow:hidden;
 p {
 font-family: 'Lato', sans-serif;
 font-size: 18px;
+  max-height: 400px;
+  min-width: 600px;
 overflow:hidden;
 }
 
@@ -112,7 +117,7 @@ font-size: 75px;
 color: grey;
 }
 
-.social .fa-facebook-official:hover {
+.social .fa-airbnb:hover {
 color: rgb(29, 230, 184);
 }
 
